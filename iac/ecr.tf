@@ -6,7 +6,7 @@ resource aws_ecr_repository "repository" {
     scan_on_push = true
   }
   tags = {
-    git_commit           = "N/A"
+    git_commit           = "N/A" 
     git_file             = "iac/ecr.tf"
     git_last_modified_at = "2023-05-15 08:48:24"
     git_last_modified_by = "v@prismacloudsecuritydemo.com"
